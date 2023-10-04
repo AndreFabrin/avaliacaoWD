@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: #eff8ea;
+    --cor-secundaria: #0aeb60;
+    --cor-terciaria: #137c3f;
+    --espacamento: 0px 15px;
+    font-size: 16px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px
+}
+
+.logoTitle {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: var(--cor-terciaria);
+}
+
+header li {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-right: 40px;
+}
+
+.listaHeader ul {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.mainSec {
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.mainDiv1 {
+    width: 50%;
+}
+
+.titulo {
+    display: flex;
+    width: 50vw;
+    font-size: 60px;
+    padding: 40px;
+}
+
+.texto {
+    margin: 0px 40px 20px 40px;
+    font-size: 20px;
+}
+
+.titleColorChange {
+    color: var(--cor-terciaria);
+    font-size: 60px;
+}
+
+
+
+.mainDiv2 figure img{
+    width: 50vw;
+
+}
+
+.botaoMain{
+    color: white;
+    background-color:var(--cor-terciaria);
+    margin-left: 40px;
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.botaoMain:hover {
+    cursor: pointer;
+    background-color: #0aeb60;
+}
+
+.secTit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 14px;
+}
+
+
+
+.textoSec {
+    margin: 0px 40px 20px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.secOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 2% 14% 2% 14%;
+
+}
+
+.sells {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid;
+    border-color: var(--cor-primaria);
+    padding: 20px;
+    align-items: center;
+    gap: 8px;
+}
+
+.imgSecTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.houses {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-align:left;
+    gap: 8px;
+}
+
+.botaoHouses {
+    color: white;
+    background-color:var(--cor-terciaria);
+    margin-left: 40px;
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.priceInfo {
+    font-size: 24px;
+    color:var(--cor-terciaria);
+}
+
+.textHouses {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+}
+
+
+
+.fieldset {
+    border: 0;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.formBox {
+    
+}
+
+.insideBox {
+    padding: 10px;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+.insideBox2 {
+    padding: 10px;
+    border-radius: 10px;
+    width: 80vw;
+}
+
+footer {
+    background-color: #093670e1;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.titlesFooter {
+    color: white;
+    margin: 20px 0px 30px 0px;
+}
+
+.fInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    gap: 8px;
+}
+
+.socials {
+    display: flex;
+    flex: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.fRight {
+    margin-right: 40vw;
+}
+
+.footerText {
+    color: #4cb0d8c2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.seta {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border:none ;
+    background-color:transparent;
+}
+
+.seta:hover {
+    cursor: pointer;
+}
